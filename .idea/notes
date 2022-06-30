@@ -1,0 +1,20 @@
+Polymorphizm(çok biçimlilik):
+Bir sınıfın çok biçimde davranabilmesidir.
+Metodları ve türetilmiş sınıfları yeniden tanımlamadır.
+Override yani metod ezilir, ezmek gerçersiz kılmaktır,
+yani üzerine yazmaktır.
+Eğer bunun override edilmesi istenmiyorsa FİNAL anahtar
+sözcüğü kullanılır ve başka bir sınıfta onu kimse ezemez,
+geçeriz kılamaz. Java aynı isim ve aynı signature'da birden fazla metoda izin vermez.
+
+POLYMORPHISM İKİ YOL İLE YAPILIR:
+1.interitance(extends) kullanarak OVERRİDE edilebilir.
+Overriding(Geçersiz KılmaK) Parent class içinde bulunan metodları child class'a uyarlayarak
+kullanmaktır.b
+
+2.OverLoading ile metod isimleri aynı signature'lari farklı olarak aynı classta
+yeniden metodlar üretmektir.
+
+Override parenttaki özellikleri kendisine uyarlar.
+
+(Protected : Bu öğelere altsınıflar ve aynı pakettekiler erişebilir. )
